@@ -20,3 +20,14 @@ func main() {
   }
 }
 ```
+
+## Why?
+
+Because the race detector doesnt like massive stress tests. Example:
+https://groups.google.com/forum/#!topic/golang-nuts/XDPHUt2LE70
+
+## Why didn't you just use...
+
+Please tell me about a better way of doing this. It wasn't
+readily apparent to me, so I made this. But i would much prefer
+an env var or some already existing var from the stdlib :)
